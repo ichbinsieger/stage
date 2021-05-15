@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    
+    margin-top: 2rem;
+  padding-top: 2.5rem;
+    
+
+
+}
+.line{
+    border: 1px solid rgb(65, 60, 60);
+    width: 10rem;
+    height: 0.1rem;
+    position: relative;
+    bottom: 2rem;
+    
+}
+.stages{
+    display: flex;
+    position: absolute;
+    width: 10rem;
+    top: 0;
+    justify-content: space-between;
+
+}
+a{
+    border-radius: 50%;
+    text-decoration: none;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: rgb(148, 145, 139);
+    font-size: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
